@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "shape-complementarity"
-version = "0.2.0"
+version = "0.2.1"
 description = "Molecular shape complementarity scoring with NumPy and MSMS."
 readme = "README.md"
 requires-python = ">=3.9"
