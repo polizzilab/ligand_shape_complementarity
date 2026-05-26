@@ -81,10 +81,7 @@ COC1=CC=C(N2C3=C(C(C(N)=O)=N2)CCN(C4=CC=C(N5CCCCC5=O)C=C4)C3=O)C=C1
 ## Score a single structure
 
 ```bash
-python examples/score_msms.py \
-  testdata/pdbs/0001.pdb.gz \
-  "COC1=CC=C(N2C3=C(C(C(N)=O)=N2)CCN(C4=CC=C(N5CCCCC5=O)C=C4)C3=O)C=C1" \
-  -v
+python examples/score_msms.py examples/epic_xtal_ch1.pdb "CC[C@]1(O)C2=C(C(N3CC4=C5[C@@H]([NH3+])CCC6=C5C(N=C4C3=C2)=CC(F)=C6C)=O)COC1=O" -v
 ```
 
 ## Batch scoring
